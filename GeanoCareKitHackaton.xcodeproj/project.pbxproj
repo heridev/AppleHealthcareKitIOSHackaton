@@ -3,27 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		BA0528C524DD0B6400A5EA61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0528C424DD0B6400A5EA61 /* AppDelegate.swift */; };
 		BA0528C724DD0B6400A5EA61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0528C624DD0B6400A5EA61 /* SceneDelegate.swift */; };
-		BA0528C924DD0B6400A5EA61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0528C824DD0B6400A5EA61 /* ViewController.swift */; };
 		BA0528CC24DD0B6400A5EA61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0528CA24DD0B6400A5EA61 /* Main.storyboard */; };
 		BA0528CE24DD0B6500A5EA61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0528CD24DD0B6500A5EA61 /* Assets.xcassets */; };
 		BA0528D124DD0B6500A5EA61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0528CF24DD0B6500A5EA61 /* LaunchScreen.storyboard */; };
+		BA0528D924DD0BF000A5EA61 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0528D824DD0BF000A5EA61 /* MainViewController.swift */; };
+		BA0528DB24DD0EFC00A5EA61 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0528DA24DD0EFC00A5EA61 /* LoginViewController.swift */; };
+		BA0528DF24DD0FB900A5EA61 /* CareKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = BA0528DE24DD0FB900A5EA61 /* CareKitUI */; };
+		BA0528E124DD0FB900A5EA61 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = BA0528E024DD0FB900A5EA61 /* CareKit */; };
+		BA0528E324DD0FB900A5EA61 /* CareKitStore in Frameworks */ = {isa = PBXBuildFile; productRef = BA0528E224DD0FB900A5EA61 /* CareKitStore */; };
+		BA0528E624DD0FE100A5EA61 /* OCKDailyStore+PopulateCarePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0528E524DD0FE100A5EA61 /* OCKDailyStore+PopulateCarePlan.swift */; };
+		BA0528E824DD101500A5EA61 /* careStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0528E724DD101500A5EA61 /* careStore.swift */; };
+		BA0528EA24DD10BD00A5EA61 /* SymptomTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0528E924DD10BD00A5EA61 /* SymptomTrackerViewController.swift */; };
+		BA0528EC24DD1B2600A5EA61 /* CareKitTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0528EB24DD1B2500A5EA61 /* CareKitTabBarController.swift */; };
+		BA0528EF24DD216600A5EA61 /* CareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0528EE24DD216600A5EA61 /* CareViewController.swift */; };
+		BA0528F124DD21A300A5EA61 /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0528F024DD21A300A5EA61 /* TipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA0528C124DD0B6400A5EA61 /* GeanoCareKitHackaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeanoCareKitHackaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0528C424DD0B6400A5EA61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA0528C624DD0B6400A5EA61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA0528C824DD0B6400A5EA61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA0528CB24DD0B6400A5EA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA0528CD24DD0B6500A5EA61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA0528D024DD0B6500A5EA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA0528D224DD0B6500A5EA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0528D824DD0BF000A5EA61 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BA0528DA24DD0EFC00A5EA61 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BA0528E524DD0FE100A5EA61 /* OCKDailyStore+PopulateCarePlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OCKDailyStore+PopulateCarePlan.swift"; sourceTree = "<group>"; };
+		BA0528E724DD101500A5EA61 /* careStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = careStore.swift; sourceTree = "<group>"; };
+		BA0528E924DD10BD00A5EA61 /* SymptomTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomTrackerViewController.swift; sourceTree = "<group>"; };
+		BA0528EB24DD1B2500A5EA61 /* CareKitTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareKitTabBarController.swift; sourceTree = "<group>"; };
+		BA0528EE24DD216600A5EA61 /* CareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareViewController.swift; sourceTree = "<group>"; };
+		BA0528F024DD21A300A5EA61 /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0528E124DD0FB900A5EA61 /* CareKit in Frameworks */,
+				BA0528DF24DD0FB900A5EA61 /* CareKitUI in Frameworks */,
+				BA0528E324DD0FB900A5EA61 /* CareKitStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,38 @@
 		BA0528C324DD0B6400A5EA61 /* GeanoCareKitHackaton */ = {
 			isa = PBXGroup;
 			children = (
+				BA0528E424DD0FC500A5EA61 /* extensions */,
+				BA0528DC24DD0F0200A5EA61 /* controllers */,
 				BA0528C424DD0B6400A5EA61 /* AppDelegate.swift */,
 				BA0528C624DD0B6400A5EA61 /* SceneDelegate.swift */,
-				BA0528C824DD0B6400A5EA61 /* ViewController.swift */,
 				BA0528CA24DD0B6400A5EA61 /* Main.storyboard */,
 				BA0528CD24DD0B6500A5EA61 /* Assets.xcassets */,
 				BA0528CF24DD0B6500A5EA61 /* LaunchScreen.storyboard */,
 				BA0528D224DD0B6500A5EA61 /* Info.plist */,
+				BA0528E724DD101500A5EA61 /* careStore.swift */,
+				BA0528EB24DD1B2500A5EA61 /* CareKitTabBarController.swift */,
+				BA0528F024DD21A300A5EA61 /* TipView.swift */,
 			);
 			path = GeanoCareKitHackaton;
+			sourceTree = "<group>";
+		};
+		BA0528DC24DD0F0200A5EA61 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA0528D824DD0BF000A5EA61 /* MainViewController.swift */,
+				BA0528DA24DD0EFC00A5EA61 /* LoginViewController.swift */,
+				BA0528E924DD10BD00A5EA61 /* SymptomTrackerViewController.swift */,
+				BA0528EE24DD216600A5EA61 /* CareViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		BA0528E424DD0FC500A5EA61 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA0528E524DD0FE100A5EA61 /* OCKDailyStore+PopulateCarePlan.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +126,11 @@
 			dependencies = (
 			);
 			name = GeanoCareKitHackaton;
+			packageProductDependencies = (
+				BA0528DE24DD0FB900A5EA61 /* CareKitUI */,
+				BA0528E024DD0FB900A5EA61 /* CareKit */,
+				BA0528E224DD0FB900A5EA61 /* CareKitStore */,
+			);
 			productName = GeanoCareKitHackaton;
 			productReference = BA0528C124DD0B6400A5EA61 /* GeanoCareKitHackaton.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +159,9 @@
 				Base,
 			);
 			mainGroup = BA0528B824DD0B6400A5EA61;
+			packageReferences = (
+				BA0528DD24DD0FB900A5EA61 /* XCRemoteSwiftPackageReference "CareKit" */,
+			);
 			productRefGroup = BA0528C224DD0B6400A5EA61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA0528C924DD0B6400A5EA61 /* ViewController.swift in Sources */,
+				BA0528DB24DD0EFC00A5EA61 /* LoginViewController.swift in Sources */,
 				BA0528C524DD0B6400A5EA61 /* AppDelegate.swift in Sources */,
 				BA0528C724DD0B6400A5EA61 /* SceneDelegate.swift in Sources */,
+				BA0528EF24DD216600A5EA61 /* CareViewController.swift in Sources */,
+				BA0528F124DD21A300A5EA61 /* TipView.swift in Sources */,
+				BA0528EC24DD1B2600A5EA61 /* CareKitTabBarController.swift in Sources */,
+				BA0528EA24DD10BD00A5EA61 /* SymptomTrackerViewController.swift in Sources */,
+				BA0528D924DD0BF000A5EA61 /* MainViewController.swift in Sources */,
+				BA0528E824DD101500A5EA61 /* careStore.swift in Sources */,
+				BA0528E624DD0FE100A5EA61 /* OCKDailyStore+PopulateCarePlan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +394,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA0528DD24DD0FB900A5EA61 /* XCRemoteSwiftPackageReference "CareKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/carekit-apple/CareKit";
+			requirement = {
+				kind = exactVersion;
+				version = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA0528DE24DD0FB900A5EA61 /* CareKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA0528DD24DD0FB900A5EA61 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitUI;
+		};
+		BA0528E024DD0FB900A5EA61 /* CareKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA0528DD24DD0FB900A5EA61 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKit;
+		};
+		BA0528E224DD0FB900A5EA61 /* CareKitStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA0528DD24DD0FB900A5EA61 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitStore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA0528B924DD0B6400A5EA61 /* Project object */;
 }
